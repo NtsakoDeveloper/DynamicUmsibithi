@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.thumbnailCircle{
+  height: 200px;
+  width:100%;
+  
+}
+
+.thumbnail {
+  height: auto;
+  width:100%;
+}
+
+.thumbnail2 {
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+  height: auto;
+  width:100%;
+  background-image: url(./assets/bgTex.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.thumbnail2A {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: auto;
+  width:100%;
+  background-image: url(./assets/bgTex.gif);
+  background-size: cover;
+    
+}
+
+.thumbnail1A {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+  height: 300px;
+  width:100%;
+  
+}
+
+.thumbnailServ{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+  height: 350px;
+  width:100%;
+
+}
+
+.thumbnailCom{
+
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+  height: auto;
+  width:100%;
+  
+
+}
+
+.thumbnailCom{
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+
+}
+.thumbnailServ:hover{
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+
+}
+
+.thumbnailcON {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+  height: auto;
+  width:100%;
+ 
+}
+
+.thumbnail3 {
+  transition: 0.3s;
+  min-width: 40%;
+  border-radius: 5px;
+  height: 300px;
+  width:100%;
+  background-image: url(./assets/img//Head.jpeg);
+  background-repeat: no-repeat;
+}
+
+.thumbnail-description {
+  min-height: 40px;
+  font-size: 18px;
+  width:100%;
+}
+
+.thumbnail-description2 {
+   position: relative;
+   padding: 40px;
+   font-size: 20px;;
+   padding: 25px;
+   z-index: 20;
+}
+
+.thumbnail:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
